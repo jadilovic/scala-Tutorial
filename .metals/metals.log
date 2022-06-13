@@ -1,0 +1,786 @@
+2022.06.13 08:30:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Scala\hello-world\.metals\lsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2022.06.13 08:30:22 INFO  logging to file D:\Scala\hello-world\.metals\metals.log[0m
+2022.06.13 08:30:22 INFO  Started: Metals version 0.11.6 in workspace 'D:\Scala\hello-world' for client Visual Studio Code 1.68.0.[0m
+2022.06.13 08:30:22 INFO  time: initialize in 0.55s[0m
+2022.06.13 08:30:23 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.13 08:30:23 WARN  Build server is not auto-connectable.[0m
+2022.06.13 08:30:31 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals17896737637881651221\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.13 08:30:32 INFO  [info] welcome to sbt 1.6.2 (Eclipse Adoptium Java 17.0.3)[0m
+2022.06.13 08:30:34 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...[0m
+2022.06.13 08:30:34 INFO  [info] loading project definition from D:\Scala\hello-world\project\project[0m
+2022.06.13 08:30:36 INFO  [info] loading settings for project hello-world-build from metals.sbt ...[0m
+2022.06.13 08:30:36 INFO  [info] loading project definition from D:\Scala\hello-world\project[0m
+2022.06.13 08:30:38 INFO  [success] Generated .bloop\hello-world-build.json[0m
+2022.06.13 08:30:38 INFO  [success] Total time: 2 s, completed Jun 13, 2022, 8:30:38 AM[0m
+2022.06.13 08:30:39 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.13 08:30:39 INFO  [info] set current project to hello-world (in build file:/D:/Scala/hello-world/)[0m
+2022.06.13 08:30:39 INFO  [success] Generated .bloop\root-test.json[0m
+2022.06.13 08:30:39 INFO  [success] Generated .bloop\root.json[0m
+2022.06.13 08:30:39 INFO  [success] Total time: 0 s, completed Jun 13, 2022, 8:30:40 AM[0m
+2022.06.13 08:30:40 INFO  time: ran 'sbt bloopInstall' in 9.35s[0m
+2022.06.13 08:30:40 INFO  Attempting to connect to the build server...[0m
+2022.06.13 08:30:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 08:30:43 INFO  Attempting to connect to the build server...[0m
+2022.06.13 08:30:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 08:30:43 INFO  time: Connected to build server in 2.95s[0m
+2022.06.13 08:30:43 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 08:30:43 INFO  time: Imported build in 0.11s[0m
+2022.06.13 08:30:48 INFO  time: indexed workspace in 4.59s[0m
+2022.06.13 08:34:29 INFO  time: code lens generation in 1.62s[0m
+2022.06.13 08:34:29 INFO  time: code lens generation in 1.63s[0m
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 8:37:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.13 08:39:09 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:39:12 INFO  time: compiled root in 2.33s[0m
+2022.06.13 08:39:19 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:39:19 INFO  time: compiled root in 0.75s[0m
+2022.06.13 08:54:47 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:54:47 INFO  time: compiled root in 0.54s[0m
+2022.06.13 08:55:08 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:55:08 INFO  time: compiled root in 0.13s[0m
+2022.06.13 08:56:00 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:56:00 INFO  time: compiled root in 0.2s[0m
+2022.06.13 08:56:31 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:56:31 INFO  time: compiled root in 0.55s[0m
+2022.06.13 08:56:50 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:56:50 INFO  time: compiled root in 0.24s[0m
+2022.06.13 08:56:51 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:56:51 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:21 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:21 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:23 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:57:23 INFO  time: compiled root in 0.22s[0m
+2022.06.13 08:57:23 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:23 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:30 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:30 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:35 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:35 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:36 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:36 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:39 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:42 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:42 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:45 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:45 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:45 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:46 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 08:57:48 INFO  compiling root (1 scala source)[0m
+2022.06.13 08:57:48 INFO  time: compiled root in 0.72s[0m
+2022.06.13 09:02:54 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:02:54 INFO  time: compiled root in 0.44s[0m
+2022.06.13 09:03:32 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:03:32 INFO  time: compiled root in 0.71s[0m
+2022.06.13 09:12:40 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:12:40 INFO  time: compiled root in 0.61s[0m
+2022.06.13 09:14:13 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:14:13 INFO  time: compiled root in 0.45s[0m
+2022.06.13 09:15:31 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:15:31 INFO  time: compiled root in 0.17s[0m
+2022.06.13 09:15:57 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:6:3: stale bloop error: None of the overloaded alternatives of method println in object Predef with types
+ (x: Any): Unit
+ (): Unit
+match arguments (("TEST : " : String), (tot : Option[Int]))
+  println("TEST : ", tot)
+  ^^^^^^^[0m
+2022.06.13 09:15:57 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:6:3: stale bloop error: None of the overloaded alternatives of method println in object Predef with types
+ (x: Any): Unit
+ (): Unit
+match arguments (("TEST : " : String), (tot : Option[Int]))
+  println("TEST : ", tot)
+  ^^^^^^^[0m
+2022.06.13 09:15:57 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:6:3: stale bloop error: None of the overloaded alternatives of method println in object Predef with types
+ (x: Any): Unit
+ (): Unit
+match arguments (("TEST : " : String), (tot : Option[Int]))
+  println("TEST : ", tot)
+  ^^^^^^^[0m
+2022.06.13 09:15:57 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:6:3: stale bloop error: None of the overloaded alternatives of method println in object Predef with types
+ (x: Any): Unit
+ (): Unit
+match arguments (("TEST : " : String), (tot : Option[Int]))
+  println("TEST : ", tot)
+  ^^^^^^^[0m
+2022.06.13 09:16:12 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:16:12 INFO  time: compiled root in 0.41s[0m
+2022.06.13 09:16:29 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:16:29 INFO  time: compiled root in 0.41s[0m
+2022.06.13 09:20:44 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:20:44 INFO  time: compiled root in 0.51s[0m
+2022.06.13 09:47:18 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:47:18 INFO  time: compiled root in 0.27s[0m
+2022.06.13 09:47:22 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:47:22 INFO  time: compiled root in 0.81s[0m
+2022.06.13 09:47:44 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:47:44 INFO  time: compiled root in 0.55s[0m
+2022.06.13 09:55:14 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:55:14 INFO  time: compiled root in 0.48s[0m
+Exception in thread "pool-5-thread-1" java.lang.IllegalArgumentException: requirement failed: method range
+	at scala.Predef$.require(Predef.scala:337)
+	at dotty.tools.dotc.ast.TypedTreeInfo.defPath(TreeInfo.scala:776)
+	at dotty.tools.dotc.ast.TypedTreeInfo.defPath$(TreeInfo.scala:394)
+	at dotty.tools.dotc.ast.tpd$.defPath(tpd.scala:23)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:198)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:65)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:214)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.13 09:57:15 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:57:15 INFO  time: compiled root in 0.35s[0m
+Exception in thread "pool-5-thread-2" java.lang.IllegalArgumentException: requirement failed: method range
+	at scala.Predef$.require(Predef.scala:337)
+	at dotty.tools.dotc.ast.TypedTreeInfo.defPath(TreeInfo.scala:776)
+	at dotty.tools.dotc.ast.TypedTreeInfo.defPath$(TreeInfo.scala:394)
+	at dotty.tools.dotc.ast.tpd$.defPath(tpd.scala:23)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:198)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:65)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:214)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.13 09:59:19 INFO  compiling root (1 scala source)[0m
+2022.06.13 09:59:19 INFO  time: compiled root in 0.56s[0m
+2022.06.13 10:31:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 10:31:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 10:31:16 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 10:31:16 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 10:31:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 10:31:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 10:31:17 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:31:16 INFO  time: Imported build in 0.18s[0m
+2022.06.13 10:31:19 INFO  time: indexed workspace in 2.21s[0m
+2022.06.13 10:31:20 INFO  compiling root-test (1 scala source)[0m
+2022.06.13 10:31:20 INFO  time: compiled root-test in 449?s[0m
+2022.06.13 10:31:26 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:31:26 INFO  time: compiled root in 0.92s[0m
+2022.06.13 10:32:48 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:32:48 INFO  time: compiled root in 0.25s[0m
+Jun 13, 2022 10:32:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 24 is not a valid line number, allowed [0..23]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+2022.06.13 10:32:58 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:32:58 INFO  time: compiled root in 0.26s[0m
+Jun 13, 2022 10:33:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 25 is not a valid line number, allowed [0..23]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+Jun 13, 2022 10:33:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 25 is not a valid line number, allowed [0..23]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+2022.06.13 10:33:03 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:33:03 INFO  time: compiled root in 0.34s[0m
+Jun 13, 2022 10:33:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 25 is not a valid line number, allowed [0..23]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1649)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1648)
+	... 15 more
+
+2022.06.13 10:33:27 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:33:27 INFO  time: compiled root in 0.26s[0m
+2022.06.13 10:33:36 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:33:36 INFO  time: compiled root in 0.55s[0m
+2022.06.13 10:34:21 INFO  compiling root (1 scala source)[0m
+2022.06.13 10:34:21 INFO  time: compiled root in 0.49s[0m
+2022.06.13 12:11:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 12:11:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 12:11:00 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 12:11:00 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 12:11:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 12:11:00 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:11:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 12:11:00 INFO  time: Imported build in 0.18s[0m
+2022.06.13 12:11:02 INFO  time: indexed workspace in 1.83s[0m
+2022.06.13 12:11:02 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:11:04 INFO  time: compiled root in 1.49s[0m
+2022.06.13 12:11:12 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:11:12 INFO  time: compiled root in 0.9s[0m
+2022.06.13 12:11:36 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:11:36 INFO  time: compiled root in 0.75s[0m
+2022.06.13 12:12:18 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:12:18 INFO  time: compiled root in 0.22s[0m
+2022.06.13 12:13:37 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:13:37 INFO  time: compiled root in 0.4s[0m
+2022.06.13 12:14:32 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:14:32 INFO  time: compiled root in 0.54s[0m
+2022.06.13 12:16:29 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:16:29 INFO  time: compiled root in 0.25s[0m
+2022.06.13 12:17:17 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:17:17 INFO  time: compiled root in 0.22s[0m
+2022.06.13 12:17:25 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:17:25 INFO  time: compiled root in 0.24s[0m
+2022.06.13 12:17:46 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:17:46 INFO  time: compiled root in 0.2s[0m
+2022.06.13 12:17:51 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:17:51 INFO  time: compiled root in 0.18s[0m
+2022.06.13 12:18:20 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:18:20 INFO  time: compiled root in 0.87s[0m
+2022.06.13 12:18:54 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:18:54 INFO  time: compiled root in 0.2s[0m
+2022.06.13 12:19:03 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:19:03 INFO  time: compiled root in 0.18s[0m
+2022.06.13 12:19:12 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:19:12 INFO  time: compiled root in 0.48s[0m
+2022.06.13 12:21:08 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:21:08 INFO  time: compiled root in 0.31s[0m
+2022.06.13 12:22:00 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:22:00 INFO  time: compiled root in 49ms[0m
+2022.06.13 12:22:50 INFO  compiling root (1 scala source)[0m
+2022.06.13 12:22:50 INFO  time: compiled root in 0.24s[0m
+2022.06.13 14:07:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 14:07:33 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 14:07:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 14:07:33 INFO  time: Imported build in 0.11s[0m
+2022.06.13 14:07:35 INFO  time: indexed workspace in 1.99s[0m
+2022.06.13 14:07:35 INFO  compiling root (2 scala sources)[0m
+2022.06.13 14:07:35 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 14:07:35 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 14:07:36 INFO  time: compiled root in 1.25s[0m
+2022.06.13 14:07:54 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 14:07:54 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 14:12:14 INFO  compiling root (2 scala sources)[0m
+2022.06.13 14:12:14 INFO  time: compiled root in 0.34s[0m
+2022.06.13 14:14:25 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:14:25 INFO  time: compiled root in 0.35s[0m
+2022.06.13 14:15:14 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:15:14 INFO  time: compiled root in 0.57s[0m
+2022.06.13 14:16:58 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:16:58 INFO  time: compiled root in 0.48s[0m
+2022.06.13 14:17:19 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:17:19 INFO  time: compiled root in 0.51s[0m
+2022.06.13 14:54:18 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:54:18 INFO  time: compiled root in 0.17s[0m
+2022.06.13 14:54:27 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:54:27 INFO  time: compiled root in 0.48s[0m
+2022.06.13 14:54:46 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:54:46 INFO  time: compiled root in 0.43s[0m
+2022.06.13 14:55:27 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:55:27 INFO  time: compiled root in 0.47s[0m
+2022.06.13 14:55:31 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:55:31 INFO  time: compiled root in 0.59s[0m
+2022.06.13 14:58:26 INFO  compiling root (1 scala source)[0m
+2022.06.13 14:58:26 INFO  time: compiled root in 0.38s[0m
+2022.06.13 15:03:34 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:03:34 INFO  time: compiled root in 74ms[0m
+2022.06.13 15:03:40 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:03:40 INFO  time: compiled root in 0.49s[0m
+2022.06.13 15:10:15 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:10:15 INFO  time: compiled root in 0.24s[0m
+2022.06.13 15:11:06 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:11:06 INFO  time: compiled root in 0.24s[0m
+2022.06.13 15:11:26 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:11:26 INFO  time: compiled root in 63ms[0m
+2022.06.13 15:12:01 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:12:01 INFO  time: compiled root in 0.17s[0m
+2022.06.13 15:13:04 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:13:04 INFO  time: compiled root in 0.2s[0m
+Exception in thread "pool-11-thread-1" java.lang.IllegalArgumentException: requirement failed: method range
+	at scala.Predef$.require(Predef.scala:337)
+	at dotty.tools.dotc.ast.TypedTreeInfo.defPath(TreeInfo.scala:776)
+	at dotty.tools.dotc.ast.TypedTreeInfo.defPath$(TreeInfo.scala:394)
+	at dotty.tools.dotc.ast.tpd$.defPath(tpd.scala:23)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:198)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:65)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:214)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.06.13 15:18:09 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:18:09 INFO  time: compiled root in 28ms[0m
+2022.06.13 15:20:30 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:20:30 INFO  time: compiled root in 0.39s[0m
+2022.06.13 15:24:07 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:24:07 INFO  time: compiled root in 0.12s[0m
+2022.06.13 15:24:59 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:24:59 INFO  time: compiled root in 0.55s[0m
+2022.06.13 15:29:08 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:29:08 INFO  time: compiled root in 0.73s[0m
+2022.06.13 15:29:39 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:29:39 INFO  time: compiled root in 0.18s[0m
+2022.06.13 15:29:47 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:29:47 INFO  time: compiled root in 97ms[0m
+2022.06.13 15:30:02 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:30:02 INFO  time: compiled root in 0.5s[0m
+2022.06.13 15:30:33 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:30:33 INFO  time: compiled root in 0.43s[0m
+2022.06.13 15:35:21 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:35:21 INFO  time: compiled root in 0.34s[0m
+2022.06.13 15:35:27 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:35:27 INFO  time: compiled root in 0.47s[0m
+2022.06.13 15:36:17 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:36:17 INFO  time: compiled root in 0.47s[0m
+2022.06.13 15:36:34 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:36:34 INFO  time: compiled root in 0.44s[0m
+2022.06.13 15:37:00 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:37:00 INFO  time: compiled root in 0.34s[0m
+2022.06.13 15:37:13 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:37:13 INFO  time: compiled root in 0.21s[0m
+2022.06.13 15:37:14 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:14 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:17 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:18 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:18 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:19 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:18 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:20 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:37:20 INFO  time: compiled root in 97ms[0m
+2022.06.13 15:37:21 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:21 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:22 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:25 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:25 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:26 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:25 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:28 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:29 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:29 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:31 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:31 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:32 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:37:32 INFO  time: compiled root in 0.2s[0m
+2022.06.13 15:37:33 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:33 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:39 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:39 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:40 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:39 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:42 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:42 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:44 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:44 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:37:45 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:37:45 INFO  time: compiled root in 0.38s[0m
+2022.06.13 15:41:10 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:41:10 INFO  time: compiled root in 0.23s[0m
+2022.06.13 15:42:05 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:42:05 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:42:05 WARN  Could not load snapshot text for D:\Scala\hello-world\src\main\scala\Main.scala[0m
+2022.06.13 15:42:05 INFO  time: compiled root in 0.34s[0m
+2022.06.13 15:42:33 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:42:33 INFO  time: compiled root in 0.15s[0m
+2022.06.13 15:42:46 INFO  compiling root (1 scala source)[0m
+2022.06.13 15:42:46 INFO  time: compiled root in 0.39s[0m
+Jun 13, 2022 4:39:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 4:39:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.13 20:45:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 20:45:51 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 20:45:52 INFO  compiling root (1 scala source)[0m
+2022.06.13 20:45:52 INFO  time: compiled root in 0.46s[0m
+Jun 13, 2022 9:37:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 9:37:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 9:48:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.13 21:52:33 INFO  shutting down Metals[0m
+2022.06.13 21:52:33 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy10.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy10.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.06.13 21:52:33 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy10.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy10.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.06.13 21:52:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Scala\hello-world\.metals\lsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2022.06.13 21:52:48 INFO  logging to file D:\Scala\hello-world\.metals\metals.log[0m
+2022.06.13 21:52:48 INFO  Started: Metals version 0.11.6 in workspace 'D:\Scala\hello-world' for client Visual Studio Code 1.68.0.[0m
+2022.06.13 21:52:49 INFO  time: initialize in 0.55s[0m
+2022.06.13 21:52:49 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.13 21:52:49 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:52:49 INFO  skipping build import with status 'Installed'[0m
+2022.06.13 21:52:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:52:49 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:52:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:52:49 INFO  time: Connected to build server in 0.28s[0m
+2022.06.13 21:52:49 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 21:52:54 INFO  time: indexed workspace in 4.21s[0m
+2022.06.13 21:53:02 INFO  Disconnecting from Bloop session...[0m
+2022.06.13 21:53:04 ERROR timeout: build server 'bloop' during shutdown[0m
+2022.06.13 21:53:04 ERROR timeout: build server 'bloop' during shutdown[0m
+2022.06.13 21:53:04 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:53:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:53:07 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:53:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:53:07 INFO  time: Connected to build server in 2.59s[0m
+2022.06.13 21:53:07 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 21:53:08 INFO  time: indexed workspace in 1.42s[0m
+Jun 13, 2022 9:55:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.13 21:57:17 INFO  shutting down Metals[0m
+2022.06.13 21:57:17 INFO  Shut down connection with build server.[0m
+2022.06.13 21:57:17 INFO  Shut down connection with build server.[0m
+2022.06.13 21:57:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\Scala\hello-world\.metals\lsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\lsp.trace.json[0m
+2022.06.13 21:57:30 INFO  logging to file D:\Scala\hello-world\.metals\metals.log[0m
+2022.06.13 21:57:30 INFO  Started: Metals version 0.11.6 in workspace 'D:\Scala\hello-world' for client Visual Studio Code 1.68.0.[0m
+2022.06.13 21:57:31 INFO  time: initialize in 0.54s[0m
+2022.06.13 21:57:31 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.13 21:57:31 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:57:31 INFO  skipping build import with status 'Installed'[0m
+2022.06.13 21:57:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:57:31 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:57:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:57:32 INFO  time: Connected to build server in 0.31s[0m
+2022.06.13 21:57:32 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 21:57:31 INFO  time: Imported build in 0.13s[0m
+2022.06.13 21:57:35 INFO  time: indexed workspace in 3.42s[0m
+2022.06.13 21:57:38 INFO  Disconnecting from Bloop session...[0m
+2022.06.13 21:57:38 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy10.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Connection reset by peer
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:53)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:123)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy2.$Proxy10.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2022.06.13 21:57:40 ERROR timeout: build server 'bloop' during shutdown[0m
+2022.06.13 21:57:40 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:57:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:57:43 INFO  Attempting to connect to the build server...[0m
+2022.06.13 21:57:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.13 21:57:43 INFO  time: Connected to build server in 2.92s[0m
+2022.06.13 21:57:43 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.13 21:57:45 INFO  time: indexed workspace in 1.47s[0m
+Jun 13, 2022 9:58:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

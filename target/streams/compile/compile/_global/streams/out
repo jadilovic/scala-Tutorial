@@ -1,0 +1,5 @@
+[error] -- [E039] Reference Error: D:\Scala\hello-world\src\main\scala\Main.scala:30:10 
+[error] 30 |  println(isEvenMethod(4))
+[error]    |          ^^^^^^^^^^^^
+[error]    |isEvenMethod is a forward reference extending over the definition of someValue
+[error] one error found
