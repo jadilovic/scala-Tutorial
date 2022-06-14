@@ -22,13 +22,13 @@
 [debug] compilation cycle 1
 [info] compiling 1 Scala source to D:\Scala\hello-world\target\scala-3.1.2\classes ...
 [debug] Returning already retrieved and compiled bridge: C:\Users\User\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.1.2\scala3-sbt-bridge-3.1.2.jar.
-[debug] [zinc] Running cached compiler 5cb7bfba for Scala Compiler version 3.1.2
+[debug] [zinc] Running cached compiler 25c4029c for Scala Compiler version 3.1.2
 [debug] [zinc] The Scala compiler is invoked with:
 [debug] 	-bootclasspath
 [debug] 	C:\Users\User\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.1.2\scala3-library_3-3.1.2.jar;C:\Users\User\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
 [debug] 	-classpath
 [debug] 	D:\Scala\hello-world\target\scala-3.1.2\classes
-[debug] Scala compilation took 0.8586782 s
+[debug] Scala compilation took 0.4746773 s
 [info] done compiling
 [debug] New invalidations:
 [debug] Initial set of included nodes: 

@@ -784,3 +784,99 @@ Caused by: java.io.IOException: Connection reset by peer
 2022.06.13 21:57:45 INFO  time: indexed workspace in 1.47s[0m
 Jun 13, 2022 9:58:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 10:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 10:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 10:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 10:01:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.13 22:09:46 INFO  compiling root (1 scala source)[0m
+2022.06.13 22:09:51 INFO  time: compiled root in 4.7s[0m
+Jun 13, 2022 10:17:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 13, 2022 10:17:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.13 23:34:35 INFO  compiling root (1 scala source)[0m
+2022.06.13 23:34:35 INFO  time: compiled root in 0.78s[0m
+2022.06.13 23:35:05 INFO  compiling root (1 scala source)[0m
+2022.06.13 23:35:07 INFO  time: compiled root in 1.77s[0m
+2022.06.13 23:36:04 INFO  compiling root (1 scala source)[0m
+2022.06.13 23:36:05 INFO  time: compiled root in 1.27s[0m
+2022.06.13 23:36:38 INFO  compiling root (1 scala source)[0m
+2022.06.13 23:36:38 INFO  time: compiled root in 0.86s[0m
+Jun 14, 2022 6:46:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.14 08:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.14 08:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.14 08:39:28 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.14 08:39:28 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b[0m
+2022.06.14 08:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.14 08:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Scala\hello-world\project\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2022.06.14 08:39:28 INFO  compiling root (1 scala source)[0m
+2022.06.14 08:39:28 INFO  time: Imported build in 0.23s[0m
+2022.06.14 08:39:32 INFO  time: indexed workspace in 3.66s[0m
+2022.06.14 08:40:09 INFO  compiling root (1 scala source)[0m
+2022.06.14 08:40:09 INFO  time: compiled root in 0.8s[0m
+2022.06.14 08:54:47 INFO  compiling root (1 scala source)[0m
+2022.06.14 08:54:47 INFO  time: compiled root in 0.7s[0m
+2022.06.14 09:44:54 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:44:54 INFO  time: compiled root in 0.26s[0m
+2022.06.14 09:45:27 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:45:27 INFO  time: compiled root in 0.83s[0m
+2022.06.14 09:45:43 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:45:43 INFO  time: compiled root in 0.78s[0m
+2022.06.14 09:50:40 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:50:40 INFO  time: compiled root in 0.34s[0m
+2022.06.14 09:51:04 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:51:04 INFO  time: compiled root in 0.77s[0m
+2022.06.14 09:51:41 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:51:42 INFO  time: compiled root in 1.3s[0m
+Jun 14, 2022 9:51:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 764
+Jun 14, 2022 9:51:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 769
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:51:53 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:52:02 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:52:02 INFO  file:///D:/Scala/hello-world/src/main/scala/Main.scala:39:11: stale bloop error: value getOrElse is not a member of String
+  println("value 2 : " + value2 getOrElse {"default value"})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.14 09:52:10 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:52:10 INFO  time: compiled root in 0.77s[0m
+2022.06.14 09:53:10 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:53:10 INFO  time: compiled root in 0.29s[0m
+2022.06.14 09:53:15 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:53:15 INFO  time: compiled root in 0.68s[0m
+2022.06.14 09:53:56 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:53:56 INFO  time: compiled root in 0.64s[0m
+2022.06.14 09:54:31 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:54:31 INFO  time: compiled root in 0.67s[0m
+2022.06.14 09:55:08 INFO  compiling root (1 scala source)[0m
+2022.06.14 09:55:08 INFO  time: compiled root in 0.52s[0m
+2022.06.14 12:27:08 INFO  shutting down Metals[0m

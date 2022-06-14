@@ -1,5 +1,11 @@
-[error] -- [E039] Reference Error: D:\Scala\hello-world\src\main\scala\Main.scala:30:10 
-[error] 30 |  println(isEvenMethod(4))
-[error]    |          ^^^^^^^^^^^^
-[error]    |isEvenMethod is a forward reference extending over the definition of someValue
+[error] -- Error: D:\Scala\hello-world\src\main\scala\Main.scala:41:10 -----------------
+[error] 41 |  println(value2 getOrElse )
+[error]    |          ^^^^^^
+[error]    |postfix operator `getOrElse` needs to be enabled
+[error]    |by making the implicit value scala.language.postfixOps visible.
+[error]    |----
+[error]    |This can be achieved by adding the import clause 'import scala.language.postfixOps'
+[error]    |or by setting the compiler option -language:postfixOps.
+[error]    |See the Scaladoc for value scala.language.postfixOps for a discussion
+[error]    |why the feature needs to be explicitly enabled.
 [error] one error found

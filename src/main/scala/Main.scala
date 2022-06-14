@@ -35,6 +35,11 @@
   println("result 2 :  " + result2)
   println(someValue)
   println(emptyValue)
+  println(b)
+  println("STOP : ")
+  println(value2 getOrElse {"default function"})
+  println(value2 getOrElse "No value")
+  println(value1 getOrElse "No value")
 
 
   def isEvenMethod(i: Int) = i % 2 == 0         // a method
@@ -47,7 +52,7 @@ def sayHello(f: () => Unit): Unit = f()
 def helloJoe(): Unit = println("Hello, Joe")
 val englishGreeting = (name: String) => println(s"Hello you $name ")
 
-val number: Option[Int] = Some(3)
+val number: Option[Int] = Some(4)
 val noNumber: Option[Int] = None
 val result1 = number.fold(1)(_ * 3)
 val result2 = noNumber.fold(1)(_ * 3)
@@ -60,3 +65,13 @@ val tot = newNumbers.find(_ > 2)
 val takeOut = newNumbers.takeWhile(_ < 3)
   val nums = List(10, 5, 8, 1, 7)
 
+  val a = List("jane", "jon", "mary", "joe")
+val b = a.filter(_.startsWith("j"))
+         .map(_.capitalize)
+
+def maybeItWillReturnSomething(flag: Boolean): Option[String] = {
+  if (flag) Some("Found value") else None
+}
+
+val value1 = maybeItWillReturnSomething(true)
+val value2 = maybeItWillReturnSomething(false)
